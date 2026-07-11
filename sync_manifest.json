@@ -5,8 +5,8 @@
     "C:\\Users\\YEO\\OneDrive\\Desktop\\Degree\\YEAR 3"
   ],
   "destination_root": "C:\\Users\\YEO\\OneDrive\\Documents\\TNL\\_github_Uni-Project",
-  "copied_count": 377,
-  "skipped_non_code_count": 28873,
+  "copied_count": 379,
+  "skipped_non_code_count": 28871,
   "skipped_directory_count": 311,
   "skipped_large_files": [],
   "copied_files": [
@@ -24,6 +24,16 @@
       "source": "C:\\Users\\YEO\\OneDrive\\Desktop\\Degree\\Year 2\\SEM 2 LONG SEM (2024)\\TAI6213-AI FUNDAMENTALS\\Group13\\SDropoutDataset.ipynb",
       "destination": "Year 2\\SEM 2 LONG SEM (2024)\\TAI6213-AI FUNDAMENTALS\\Group13\\SDropoutDataset.ipynb",
       "size_bytes": 428728
+    },
+    {
+      "source": "C:\\Users\\YEO\\OneDrive\\Desktop\\Degree\\Year 2\\SEM 2 LONG SEM (2024)\\TAI6213-AI FUNDAMENTALS\\Lab2BGroup05\\Lab2BGroup05\\8_Queens_Problem.lisp",
+      "destination": "Year 2\\SEM 2 LONG SEM (2024)\\TAI6213-AI FUNDAMENTALS\\Lab2BGroup05\\Lab2BGroup05\\8_Queens_Problem.lisp",
+      "size_bytes": 7200
+    },
+    {
+      "source": "C:\\Users\\YEO\\OneDrive\\Desktop\\Degree\\Year 2\\SEM 2 LONG SEM (2024)\\TAI6213-AI FUNDAMENTALS\\Lab2BGroup05\\Lab2BGroup05\\ReadMe.txt",
+      "destination": "Year 2\\SEM 2 LONG SEM (2024)\\TAI6213-AI FUNDAMENTALS\\Lab2BGroup05\\Lab2BGroup05\\ReadMe.txt",
+      "size_bytes": 445
     },
     {
       "source": "C:\\Users\\YEO\\OneDrive\\Desktop\\Degree\\Year 2\\SEM 2 LONG SEM (2024)\\TDB6113-DATABASE SYSTEMS\\1F_LeongChingPing\\EventVenueBookingSystem.sql",
