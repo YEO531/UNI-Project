@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+        function validate() 
+        {
+            myform=document.myform
+
+            check = <myform class="name value">
+                if (<checkname.lenght<1){
+                    alert("Please enter your name");
+                }
+                if(!isNaN(checkname)){
+                    alert("The name must not be a number");
+                }
+
+                aliaspos=myform.email.value.indexOf("@")
+                dotpos=myform.email.value.lastIndexOf(".");
+                if (aliaspos == -1 || dotpos == -1) {
+                    alert("Not a valid e-mail");
+                }
+        }
+
+        checkage=myform.age.value
+        if (checkage.length<1){
+            alert("Please enter your age");
+        }
+        if (isNaN(checkage)){
+            alert("The age must be a number");
+            return false;
+        }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" onsubmit=""return validate()">
+            <table>
+                <tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+                <tr><td>Email:</td><td><input type="text" name="email"></td></tr>
+                <tr><td>Age:</td><td><input type="text" name="age" size=3
+                maxlength=2></td></tr>
+                <tr>
+                <td>Gender:</td>
+                <td><select name= Gender>
+                <option value="male">Male</option>
+                <option value="Female" selected>Female</option>
+                </select></td>
+                </tr>
+                <tr><td></td>
+                    <td><input type="submit" value="Enter">&nbsp;
+                    <input type="reset" value="Clear"></td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+</html>

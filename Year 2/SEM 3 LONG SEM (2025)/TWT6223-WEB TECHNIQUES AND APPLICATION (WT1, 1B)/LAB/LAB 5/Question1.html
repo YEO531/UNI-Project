@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script type="text/javascript">
+
+	function func1(){
+      // write your code here 
+      var abc = document.getElementById('Atext');
+      if (abc.value != "") 
+        confirm("Youn entered: " + abc.value);
+        else
+        alert("Would you please enter some text? ");
+	}
+    </script>
+  </head>
+
+  <body>
+    <input type='text' id='Atext' />
+    <input type='button' onclick='func1()' value='Check' />
+  </body>
+</html>

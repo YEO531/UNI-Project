@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis Web Application</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Zoom and pan plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.2.1/dist/chartjs-plugin-zoom.min.js"></script>
+    <!-- Annotation plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.2"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Analysis</h1>
+        <div class="search-bar">
+            <input type="text" id="symbolInput" placeholder="Enter Stock Symbol (e.g. AAPL)">
+            <button id="searchBtn">Search</button>
+        </div>
+        <canvas id="stockChart"></canvas>
+        <div class="controls">
+            <button id="maBtn">Moving Average</button>
+            <button id="rsiBtn">RSI</button>
+            <button id="macdBtn">MACD</button>
+            <button id="predictBtn">Predict Next</button>
+            <button id="annotateBtn">ADD NOTE</button>
+            <button id="drawLineBtn">Draw Line</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
